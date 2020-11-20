@@ -20,7 +20,7 @@ To setup the dataset and evaluation donwload COCO API as suggested in [pytorch o
 Since the code requires regions proposals we used off the shelf Edgebox proposals which can be found here.
 
 
-#### To train RODEO:
+## To train RODEO:
 
 
 
