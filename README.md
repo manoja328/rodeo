@@ -22,7 +22,7 @@ Since the code requires regions proposals we used off the shelf Edgebox proposal
 
 #### To train RODEO:
 
-1. Run `run_imagenet_experiment.sh` to train REMIND on the ordering from our paper. Note, this will use our ordering and associated files provided in `imagenet_files`.
+
 
 
 ## References
