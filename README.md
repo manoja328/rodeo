@@ -15,8 +15,8 @@ We recommend setting up a conda environment with the envrionment file in this re
 
 ## Setup VOC 2007 and MSCOCO-214 datasets
 
-To setup the dataset and evaluation donwload COCO API as suggested in [pytorch object detection tuturial.](https://pytorch.org/tutorials/intermediate/torchvision_tutorial.html) and this [colab notebook](https://colab.research.google.com/github/pytorch/vision/blob/temp-tutorial/tutorials/torchvision_finetuning_instance_segmentation.ipynb)
-For Fast-RCNN we use pre-calcuated Edgebox proposals.
+To setup the dataset and evaluation donwload COCO API as suggested in [pytorch object detection tuturial.](https://pytorch.org/tutorials/intermediate/torchvision_tutorial.html) and this [colab notebook](https://colab.research.google.com/github/pytorch/vision/blob/temp-tutorial/tutorials/torchvision_finetuning_instance_segmentation.ipynb).
+We use pre-calcuated Edgebox proposals to train our Fast-RCNN models.
 
 
 ## To train RODEO:
