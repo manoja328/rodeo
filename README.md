@@ -16,12 +16,12 @@ We recommend setting up a conda environment with the envrionment file in this re
 ## Setup VOC 2007 and MSCOCO-214 datasets
 
 To setup the dataset and evaluation donwload COCO API as suggested in [pytorch object detection tuturial.](https://pytorch.org/tutorials/intermediate/torchvision_tutorial.html) and this [colab notebook](https://colab.research.google.com/github/pytorch/vision/blob/temp-tutorial/tutorials/torchvision_finetuning_instance_segmentation.ipynb)
-Since the code requires regions proposals we used off the shelf Edgebox proposals which can be found here.
+For Fast-RCNN we use pre-calcuated Edgebox proposals.
 
 
 ## To train RODEO:
-1. To train the models for base init run train_bettercoco.py file. This outputs the half checkpoints to start training incrementally.
-2. To extract features run `extract_coco_features.py or `extract_voc_features.py` file which will output features and save them to respective h5 files.
+1. To train the models for base init classes run `train_bettercoco.py` or `train_better` for VOC. This outputs the half checkpoint that can be used to incremental training.
+2. To extract features run `extract_coco_features.py` or `extract_voc_features.py` file which will output features to h5 files.
 3. To get the PQ reconstrcuted features run `pq_encoding_voc.py` or `pq_encoding_coco.py`.
 4. Run `runcoco.sh` to train offline and other baseline models.
 5. Run `runreplay.sh` to run RODEO model with replay sizes as a hyper-parameter.
