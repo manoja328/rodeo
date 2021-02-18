@@ -1,6 +1,6 @@
 # RODEO: Replay for Online Object Detection
 
-This is an official implementation of our paper RODEO: Replay for Online Object Detection. The arxiv link of the paper is available [here](https://arxiv.org/abs/2008.06439).
+This is an official implementation of our **BMVC 2020 paper RODEO: Replay for Online Object Detection.** The arxiv link of the paper is available [here](https://arxiv.org/abs/2008.06439).
 ## Abstract
 Humans can incrementally learn to do new visual detection tasks, which is a huge challenge for today's computer vision systems. Incrementally trained deep learning models lack backwards transfer to previously seen classes and suffer from a phenomenon known as ``catastrophic forgetting.`` In this paper, we pioneer online streaming learning for object detection, where an agent must learn examples one at a time with severe memory and computational constraints. In object detection, a system must output all bounding boxes for an image with the correct label. Unlike earlier work, the system described in this paper can learn how to do this task in an online manner with new classes being introduced over time. We achieve this capability by using a novel memory replay mechanism that replays entire scenes in an efficient manner. We achieve state-of-the-art results on both the PASCAL VOC 2007 and MS COCO datasets.
 
