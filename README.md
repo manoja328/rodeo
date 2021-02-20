@@ -16,6 +16,10 @@ We recommend setting up a conda environment with the envrionment file in this re
 ## Setup VOC 2007 and MSCOCO-214 datasets
 
 To setup the dataset and evaluation donwload COCO API as suggested in [pytorch object detection tuturial.](https://pytorch.org/tutorials/intermediate/torchvision_tutorial.html) and this [colab notebook](https://colab.research.google.com/github/pytorch/vision/blob/temp-tutorial/tutorials/torchvision_finetuning_instance_segmentation.ipynb).
+
+
+To setup pycocotools run the script ```download.sh```
+
 We use pre-calcuated Edgebox proposals to train our Fast-RCNN models.
 ### For VOC dataset, the half checkpoint and Edgebox proposals are located in [this google drive folder.](https://drive.google.com/drive/folders/1APMtR7vv4onTidW6Rd5OdpivXrGjlyTW?usp=sharing)
 
