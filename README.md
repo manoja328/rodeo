@@ -21,7 +21,7 @@ To setup the dataset and evaluation donwload COCO API as suggested in [pytorch o
 To setup pycocotools run the script ```download.sh```
 
 We use pre-calcuated Edgebox proposals to train our Fast-RCNN models.
-### For VOC dataset, the half checkpoint and Edgebox proposals are located in [this google drive folder.](https://drive.google.com/drive/folders/1APMtR7vv4onTidW6Rd5OdpivXrGjlyTW?usp=sharing)
+### For both MSCOCO and the VOC datasets, the half checkpoint and Edgebox proposals are located in [this google drive folder.](https://drive.google.com/drive/folders/1APMtR7vv4onTidW6Rd5OdpivXrGjlyTW?usp=sharing)
 
 
 ## To train RODEO:
